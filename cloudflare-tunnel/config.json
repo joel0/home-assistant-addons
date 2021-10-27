@@ -1,6 +1,6 @@
 {
   "name": "Cloudflare Tunnel",
-  "version": "1.0",
+  "version": "1.0.1",
   "slug": "cf_tunnel",
   "description": "Use Cloudflare Tunnel to allow HTTPS connections from the Internet.",
   "arch": ["amd64"],

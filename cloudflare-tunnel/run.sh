@@ -6,4 +6,4 @@ CREDENTIALS=$(bashio::config 'credentials_file_contents')
 sed -i "s/%%TUNNEL%%/$TUNNEL/g" /etc/cloudflared/config.yml
 echo "${CREDENTIALS}" > /etc/cloudflared/credentials.json
 
-cloudflared tunnel run
+cloudflared tunnel --no-autoupdate run
