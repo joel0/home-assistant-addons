@@ -6,6 +6,7 @@
   "arch": ["amd64"],
   "startup": "application",
   "boot": "auto",
+  "init": false,
   "options": {
     "tunnel_name": "homeassistant"
   },
