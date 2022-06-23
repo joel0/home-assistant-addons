@@ -1,6 +1,6 @@
 {
   "name": "Cloudflare Tunnel - Testing",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "slug": "cf_tunnel_testing",
   "description": "Use Cloudflare Tunnel to allow HTTPS connections from the Internet.",
   "arch": ["amd64"],
@@ -13,7 +13,7 @@
   },
   "schema": {
     "tunnel_name": "str",
-    "ip_version": "str",
+    "ip_version": "list(auto|4|6)",
     "credentials_file_contents": "str"
   }
 }
