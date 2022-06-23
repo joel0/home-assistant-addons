@@ -1,0 +1,19 @@
+{
+  "name": "Cloudflare Tunnel - Testing",
+  "version": "1.2.0",
+  "slug": "cf_tunnel_testing",
+  "description": "Use Cloudflare Tunnel to allow HTTPS connections from the Internet.",
+  "arch": ["amd64"],
+  "startup": "application",
+  "boot": "auto",
+  "init": false,
+  "options": {
+    "tunnel_name": "homeassistant",
+    "ip_version": "auto"
+  },
+  "schema": {
+    "tunnel_name": "str",
+    "ip_version": "str",
+    "credentials_file_contents": "str"
+  }
+}
